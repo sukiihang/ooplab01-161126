@@ -24,7 +24,7 @@ void main() {
     for(int i = 0; i < n; i++){
         numbers[i] = sc.nextInt();
         while(numbers[i] < 0){
-            n = sc.nextInt();
+            numbers[i] = sc.nextInt();
         }
     }
     sort(numbers);
